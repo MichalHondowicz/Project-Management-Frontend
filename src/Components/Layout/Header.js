@@ -29,7 +29,7 @@ class Header extends Component {
                             </li>
                             <li className="nav-item">
                                 <a className="nav-link" href="login.html">
-                                    Login
+                                    Sign In
                                 </a>
                             </li>
                         </ul>
