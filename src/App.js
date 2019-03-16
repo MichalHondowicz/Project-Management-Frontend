@@ -1,10 +1,10 @@
 import React, {Component} from 'react';
 import './App.css';
-import Dashboard from "./Components/Dashboard";
-import Header from "./Components/Layout/Header";
+import dashboard from "./components/dashboard";
+import Header from "./components/layout/header";
 import "bootstrap/dist/css/bootstrap.min.css"
 import {BrowserRouter as Router, Route} from "react-router-dom";
-import AddProject from "./Components/Project/AddProject";
+import addProject from "./components/project/addProject";
 import {Provider} from "react-redux";
 import store from "./Store";
 
@@ -15,8 +15,8 @@ class App extends Component {
                 <Router>
                     <div className="App">
                         <Header/>
-                        <Route exact path="/dashboard" component={Dashboard}/>
-                        <Route exact path="/addProject" component={AddProject}/>
+                        <Route exact path="/dashboard" component={dashboard}/>
+                        <Route exact path="/addProject" component={addProject}/>
                     </div>
                 </Router>
             </Provider>
