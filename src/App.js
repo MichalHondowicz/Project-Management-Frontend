@@ -6,7 +6,7 @@ import "bootstrap/dist/css/bootstrap.min.css"
 import {BrowserRouter as Router, Route} from "react-router-dom";
 import addProject from "./components/project/addProject";
 import {Provider} from "react-redux";
-import store from "./Store";
+import store from "./store";
 
 class App extends Component {
     render() {
@@ -20,8 +20,8 @@ class App extends Component {
                     </div>
                 </Router>
             </Provider>
-                );
-                }
-                }
+        );
+    }
+}
 
-                export default App;
+export default App;
