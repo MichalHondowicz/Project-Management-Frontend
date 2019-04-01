@@ -1,8 +1,8 @@
 import React, {Component} from 'react';
-import ProjectItem from "./Project/ProjectItem";
-import CreateProjectButton from "./Project/CreateProjectButton";
+import ProjectItem from "./project/ProjectItem";
+import CreateProjectButton from "./project/CreateProjectButton";
 
-class Dashboard extends Component {
+class dashboard extends Component {
     render() {
         return (
             <div className="projects">
@@ -23,4 +23,4 @@ class Dashboard extends Component {
     }
 }
 
-export default Dashboard;
+export default dashboard;
